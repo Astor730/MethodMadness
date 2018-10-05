@@ -4,7 +4,7 @@ public class TestFile {
         System.out.println(AMeredithGoujonlib.dateStr("01/08/1999"));
         System.out.println(AMeredithGoujonlib.isPalindrome("foof"));
         System.out.println(AMeredithGoujonlib.sumUpTo(5));
-        System.out.println(AMeredithGoujonlib.multiplicationTable(5,5));
-        System.out.println(AMeredithGoujonlib.fooBarBaz(4));
+        AMeredithGoujonlib.multiplicationTable(5,5);
+        AMeredithGoujonlib.fooBarBaz(15);
     }
 }

@@ -1,4 +1,9 @@
 public class AMeredithGoujonlib {
+    /**
+     *
+     * @param date
+     * @return
+     */
     public static String dateStr(String date)
     {
         if (date.length()>10)
@@ -43,30 +48,30 @@ public class AMeredithGoujonlib {
     }
     public static void multiplicationTable(int b, int r)
     {
-        for(int i = 0;i<r;i++)
+        for(int i = 0;i<=r;i++)
         {
             System.out.println(b*i);
         }
     }
     public static void fooBarBaz(int num1)
     {
-        for(int i = 0; i<num1;i++)
+        for(int i = 1; i<=num1;i++)
         {
-            if (num1%3==0 && num1%5==0)
+            if (i%3==0 && i%5==0)
             {
                 System.out.println("baz");
             }
-            else if(num1%3 == 0)
+            else if(i%3 == 0)
             {
                 System.out.println("foo");
             }
-            else if (num1%5 ==0)
+            else if (i%5 ==0)
             {
                 System.out.println("bar");
             }
             else
             {
-                System.out.println(num1);
+                System.out.println(i);
             }
         }
     }
