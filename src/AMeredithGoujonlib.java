@@ -32,5 +32,42 @@ public class AMeredithGoujonlib {
             return false;
         }
     }
-
+    public static int sumUpTo(int x)
+    {
+        int o = 0;
+        for(int i = 0; i<= x; i++)
+        {
+            o = o+i;
+        }
+        return o;
+    }
+    public static void multiplicationTable(int b, int r)
+    {
+        for(int i = 0;i<r;i++)
+        {
+            System.out.println(b*i);
+        }
+    }
+    public static void fooBarBaz(int num1)
+    {
+        for(int i = 0; i<num1;i++)
+        {
+            if (num1%3==0 && num1%5==0)
+            {
+                System.out.println("baz");
+            }
+            else if(num1%3 == 0)
+            {
+                System.out.println("foo");
+            }
+            else if (num1%5 ==0)
+            {
+                System.out.println("bar");
+            }
+            else
+            {
+                System.out.println(num1);
+            }
+        }
+    }
 }
